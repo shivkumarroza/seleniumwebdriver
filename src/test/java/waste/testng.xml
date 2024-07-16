@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="ParallelBrowserExecution" parallel="tests">
+  <test thread-count="5" name="Testchrome">
+	<parameter name="browser" value="firefox"></parameter>
+	<parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+    <classes>
+      <class name="waste.ParallelexcutionDemo"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Testfirefox">
+	<parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="waste.ParallelexcutionDemo"/>
+    </classes>
+  </test> 
+  
+  
+</suite> 

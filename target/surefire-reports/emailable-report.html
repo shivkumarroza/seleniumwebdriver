@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">15</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">6,230</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">day48.LoginTest</td><td><a href="#m0">setup</a></td><td rowspan="1">1721141092931</td><td rowspan="1">-1721141092931</td></tr><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">day43.TestNGAnnotationsDemo</td><td><a href="#m1">Search</a></td><td rowspan="1">1721141099146</td><td rowspan="1">2</td></tr><tr class="failedodd"><td rowspan="1">day48.LoginTest</td><td><a href="#m2">login</a></td><td rowspan="1">1721141092938</td><td rowspan="1">0</td></tr><tr><th colspan="4">Surefire test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">day48.LoginTest</td><td><a href="#m3">tearDown</a></td><td rowspan="1">1721141092939</td><td rowspan="1">0</td></tr><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">day43.TestNGAnnotationsDemo</td><td><a href="#m4">Advsearch</a></td><td rowspan="1">1721141099149</td><td rowspan="1">0</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">day42.FirstTestCase</td><td><a href="#m5">loginApp</a></td><td rowspan="1">1721141099144</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m6">logout</a></td><td rowspan="1">1721141099144</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m7">openApp</a></td><td rowspan="1">1721141099143</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="3">day43.TestNGAnnotationsDemo</td><td><a href="#m8">Lgout</a></td><td rowspan="1">1721141099149</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m9">login</a></td><td rowspan="1">1721141099146</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m10">openApp</a></td><td rowspan="1">1721141099144</td><td rowspan="1">1</td></tr><tr class="passedeven"><td rowspan="3">day44.LoginTests</td><td><a href="#m11">loginByEmail</a></td><td rowspan="1">1721141099152</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m12">loginByFacebook</a></td><td rowspan="1">1721141099152</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m13">loginByTwitter</a></td><td rowspan="1">1721141099152</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="2">day44.PaymentTests</td><td><a href="#m14">paymentInDollers</a></td><td rowspan="1">1721141099150</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m15">paymentInRupees</a></td><td rowspan="1">1721141099151</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="3">day44.SignupTests</td><td><a href="#m16">signupByEmail</a></td><td rowspan="1">1721141099153</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m17">signupByFacebook</a></td><td rowspan="1">1721141099153</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m18">signupByTwitter</a></td><td rowspan="1">1721141099154</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="1">day47.LoginTest</td><td><a href="#m19">loginTest</a></td><td rowspan="1">1721141097538</td><td rowspan="1">1484</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">day48.LoginTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;url&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">day43.TestNGAnnotationsDemo#Search</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at day43.TestNGAnnotationsDemo.Search(TestNGAnnotationsDemo.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">day48.LoginTest#login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;userName&apos; is required by @Test on method login but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">day48.LoginTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">day43.TestNGAnnotationsDemo#Advsearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method day43.TestNGAnnotationsDemo.Advsearch() on instance day43.TestNGAnnotationsDemo@3b938003 depends on not successfully finished methods 
+[day43.TestNGAnnotationsDemo.Search() on instance day43.TestNGAnnotationsDemo@3b938003
+day43.TestNGAnnotationsDemo.login() on instance day43.TestNGAnnotationsDemo@3b938003]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">day42.FirstTestCase#loginApp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">day42.FirstTestCase#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">day42.FirstTestCase#openApp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">day43.TestNGAnnotationsDemo#Lgout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">day43.TestNGAnnotationsDemo#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">day43.TestNGAnnotationsDemo#openApp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">day44.LoginTests#loginByEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">day44.LoginTests#loginByFacebook</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">day44.LoginTests#loginByTwitter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">day44.PaymentTests#paymentInDollers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">day44.PaymentTests#paymentInRupees</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">day44.SignupTests#signupByEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">day44.SignupTests#signupByFacebook</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">day44.SignupTests#signupByTwitter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">day47.LoginTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
